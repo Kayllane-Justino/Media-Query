@@ -1,0 +1,506 @@
+
+* {
+    
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    overflow-x: hidden;
+}
+
+main {
+    
+    max-width: 500px;
+    min-width: 375px;
+}
+
+
+
+header {
+    
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 4%;
+      
+
+}
+
+header > h2 {
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.75rem;
+    line-height: 2.19rem;
+    color: #13183F;
+    
+}
+
+header > button {
+    
+    color: white;
+    background-color: #13183F;
+    border-radius: 3.13rem;
+    border: none;
+    width: 9.50rem;
+    padding: 4%;
+    font-weight: 600;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.content-text-body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.88rem;
+    padding: 4%;
+    margin-bottom: 10%;
+    width: 100%;
+}
+
+.content-text-body > h1 {
+
+   
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.50rem;
+    line-height: 3.13rem;
+    color: #13183F;
+
+}
+
+.content-text-body > p {
+
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.19rem;
+    list-style: 1.63rem;
+
+    color: #83869A;
+
+}
+
+
+.content-text-body > button {
+    
+    border: none;
+    width: 10.44rem;
+    padding: 5%;
+    border-radius: 3.13rem;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    color: white;
+    font-weight: 600;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-size: 1rem;
+    cursor: pointer;
+
+
+}
+
+.image-body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.image-body > picture > img {
+
+    width: 100%;
+}
+
+
+.skills-categorys {
+
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    padding: 1.25rem;
+    
+}
+
+
+
+
+.first-div {
+
+    width: 100%;
+    height: 100%; 
+    padding: 10%;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.50rem;
+    line-height: 2rem;
+    
+    color: #FFFFFF;
+
+    border: none;
+    border-radius: 0.625000rem;
+
+}
+
+.skills-inside-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8%;
+    gap: 3.75rem;
+
+}
+
+.skills-inside-div > div {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.25rem;
+    background-color: rgb(255, 255, 255);
+    padding: 10%;
+    height: 100%;
+    border-radius: 0.625000rem;
+
+}
+
+.skills-inside-div div > h3 {
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.25rem;
+    line-height: 1.56rem;
+
+
+    color: #13183F;
+
+}
+
+.skills-inside-div div:not(:first-child) > p{
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.63rem;
+ 
+
+    color: #83869A;
+}
+
+.skills-inside-div div > a {
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.13rem;
+    line-height: 1.75rem;
+    text-decoration: none;
+  
+
+    color: #F74780;
+
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7%;
+    background-color:#13183F;
+}
+
+footer >  h2 {
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.75rem;
+    line-height: 2.19rem;
+
+
+    color: #FFFFFF;
+
+}
+
+
+footer > button {
+
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 1.75rem;
+    border: none;
+    width: 9.38rem;
+    padding: 4%;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    cursor: pointer;
+    
+
+    color: #FFFFFF;
+
+
+    
+}
+/* Tablets */
+@media screen and (min-width: 501px) {
+
+
+   main {
+    /* background-color: blue; */
+    min-width: 784px;
+    
+    
+   }
+   
+   
+   header {
+       
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       width: 100vw;
+         
+       
+    }
+
+    header > h2 {
+
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 1.75rem;
+        line-height: 2.19rem;
+        color: #13183F;
+        
+    }
+
+    header > button {
+    
+        color: white;
+        background-color: #13183F;
+        border-radius: 3.13rem;
+        border: none;
+        width: 10rem;
+        padding: 2%;
+        font-weight: 600;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    
+    .content {
+        
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     min-width: 100vw;
+     
+    }
+    
+    .content-text-body {
+        
+        width: 80%;
+
+    }
+
+    .content-text-body > h1 {
+
+        width: 70%;
+
+     }
+
+    .content-text-body > button {
+
+        width: 11rem;
+        padding: 4%;
+        cursor: pointer;
+
+    }
+
+     .image-body {
+
+       margin-left: -10%;
+       margin-top: -10%;
+      
+
+     }
+
+    
+    
+    .skills-inside-div {
+        
+        
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .skills-inside-div > div {
+
+        height: 100%;
+
+    }
+
+
+    .first-div {
+
+        width: 100%;
+        height: 100%; 
+        padding: 10%;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 1.50rem;
+        line-height: 2rem;
+        
+        color: #FFFFFF ;
+    
+        border: none;
+        border-radius: 0.625000rem;
+    
+    }
+
+
+
+
+    footer {
+
+        width: 100vw;
+        padding: 5%;
+        
+
+    }
+
+    footer > button {
+
+     
+        max-width: 9.38rem;
+        padding: 2%;
+        cursor: pointer;
+    
+
+    }
+
+
+}
+
+/* Desktops */
+@media screen and (min-width: 960px) {
+
+
+   main {
+    min-width: 100vw;
+    
+   }
+
+   header {
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1.2%;
+   }
+
+   header > button {
+
+       padding: 1.2%;
+       cursor: pointer;
+    
+
+   }
+
+   .content-text-body {
+
+        padding-left: 10%;
+        width: 60%;
+        
+
+
+    }   
+    
+    .content-text-body > h1 {
+
+        font-size: 4rem;
+        line-height: 5rem;
+
+    }
+
+    .content-text-body > p {
+
+        width: 60%;
+
+
+    }
+
+    .content-text-body > button {
+
+        padding: 2.5%;
+        cursor: pointer;
+
+    }
+  
+    .image-body > picture {
+
+        margin-top: -5%;
+
+
+    }
+
+    .skills-inside-div {
+
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+
+    }
+
+
+    .skills-inside-div > div {
+
+        height: 100%;
+
+    }
+
+    footer {
+
+        padding: 1%;
+
+        padding-left: 7%;
+        padding-right: 7%;
+
+    }
+
+    footer > button {
+
+        padding: 0.6%;
+        cursor: pointer;
+
+    }
+
+   
+}
