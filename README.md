@@ -13,11 +13,6 @@
 <br/>
 
 
-# About
-
-
-**In short: Just training my skills in the concept of responsiveness**
-
 <br/>
 <br/>
 
